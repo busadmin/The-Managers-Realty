@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | The Managers Realty</title>
+  <meta name="description" content="Contact The Managers Realty to request available property details, current pricing, and lot availability.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- GLOBAL HEADER -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="wordmark">The Managers Realty</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="properties.html">Available Properties</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+      <a href="masalukot.html" class="btn-primary">Explore Available Lots</a>
+    </nav>
+  </header>
+
+  <!-- CONTACT PAGE CONTENT -->
+  <section style="max-width: 900px; margin: 4rem auto; padding: 0 2rem;">
+    <div style="text-align: center; margin-bottom: 3rem;">
+      <h1 style="font-size: 2.75rem; margin-bottom: 1rem;">Let's Talk About Your Property Inquiry</h1>
+      <p style="color: #555; font-size: 1.1rem; max-width: 700px; margin: 0 auto;">Interested in one of our properties? Contact The Managers Realty to request available property details, current pricing, and lot availability.</p>
+    </div>
+
+    <!-- Contact Info Cards -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+      <div style="background: white; padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center;">
+        <h4 style="color: var(--forest-green); margin-bottom: 0.5rem; font-size: 0.9rem; text-transform: uppercase;">Contact Number</h4>
+        <p style="font-size: 0.95rem; color: #444;">[OFFICIAL CONTACT NUMBER]</p>
+      </div>
+      <div style="background: white; padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center;">
+        <h4 style="color: var(--forest-green); margin-bottom: 0.5rem; font-size: 0.9rem; text-transform: uppercase;">Email Address</h4>
+        <p style="font-size: 0.95rem; color: #444;">[OFFICIAL BUSINESS EMAIL]</p>
+      </div>
+      <div style="background: white; padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center;">
+        <h4 style="color: var(--forest-green); margin-bottom: 0.5rem; font-size: 0.9rem; text-transform: uppercase;">Facebook Page</h4>
+        <p style="font-size: 0.95rem; color: #444;">[FACEBOOK PAGE URL]</p>
+      </div>
+    </div>
+
+    <!-- Contact Form Box -->
+    <div style="background: white; padding: 3rem; border-radius: 8px; border: 1px solid var(--border-color);">
+      <form onsubmit="handleContact(event)" style="display: flex; flex-direction: column; gap: 1.5rem;">
+        
+        <div>
+          <label style="display: block; font-weight: 500; margin-bottom: 0.5rem;">Full Name *</label>
+          <input type="text" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 4px; font-size: 1rem;">
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+          <div>
+            <label style="display: block; font-weight: 500; margin-bottom: 0.5rem;">Contact Number *</label>
+            <input type="tel" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 4px; font-size: 1rem;">
+          </div>
+          <div>
+            <label style="display: block; font-weight: 500; margin-bottom: 0.5rem;">Email Address (Optional)</label>
+            <input type="email" style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 4px; font-size: 1rem;">
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+          <div>
+            <label style="display: block; font-weight: 500; margin-bottom: 0.5rem;">Property of Interest</label>
+            <select id="property-select" onchange="checkPropertyStatus()" style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 4px; font-size: 1rem; background: white;">
+              <option value="masalukot">Masalukot II — Available Lots</option>
+              <option value="buenavista">Buenavista — Sold Out</option>
+              <option value="lutucan">Lutucan — Sold Out</option>
+              <option value="general">General Inquiry</option>
+            </select>
+          </div>
+          <div>
+            <label style="display: block; font-weight: 500; margin-bottom: 0.5rem;">Preferred Contact Method</label>
+            <select style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 4px; font-size: 1rem; background: white;">
+              <option>Phone Call</option>
+              <option>SMS</option>
+              <option>Email</option>
+              <option>Facebook Messenger</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Sold-out notice dynamic banner inside form -->
+        <div id="sold-out-notice" style="display: none; padding: 1rem; background-color: #FEF3C7; color: #92400E; border-radius: 4px; font-size: 0.9rem;">
+          Notice: This development is currently sold out. You are welcome to submit an inquiry or explore our available lots in Masalukot II.
+        </div>
+
+        <div>
+          <label style="display: block; font-weight: 500; margin-bottom: 0.5rem;">Message *</label>
+          <textarea rows="4" required style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 4px; font-size: 1rem;"></textarea>
+        </div>
+
+        <div style="display: flex; gap: 0.75rem; align-items: flex-start;">
+          <input type="checkbox" required style="margin-top: 0.3rem;">
+          <label style="font-size: 0.85rem; color: #666;">I consent to having The Managers Realty collect and use my contact details to respond to this property inquiry in accordance with privacy guidelines.</label>
+        </div>
+
+        <button type="submit" class="btn-primary" style="background-color: var(--gold); color: white; padding: 1rem; font-size: 1rem;">Send Message</button>
+      </form>
+
+      <div id="contact-success" style="display: none; margin-top: 2rem; padding: 1rem; background-color: #E6F4EA; color: #137333; border-radius: 4px; text-align: center; font-weight: 500;">
+        Thank you for contacting The Managers Realty! Your inquiry has been received. Our team will get back to you using your preferred contact method.
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function checkPropertyStatus() {
+      const val = document.getElementById('property-select').value;
+      const notice = document.getElementById('sold-out-notice');
+      if (val === 'buenavista' || val === 'lutucan') {
+        notice.style.display = 'block';
+      } else {
+        notice.style.display = 'none';
+      }
+    }
+
+    function handleContact(event) {
+      event.preventDefault();
+      document.getElementById('contact-success').style.display = 'block';
+      event.target.reset();
+      document.getElementById('sold-out-notice').style.display = 'none';
+    }
+  </script>
+
+  <!-- GLOBAL FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4 class="wordmark" style="color: var(--gold); margin-bottom: 1rem;">The Managers Realty</h4>
+        <p>A team of freelance real estate sellers offering farm-lot property opportunities in the Philippines.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="properties.html">Available Properties</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Properties</h4>
+        <ul>
+          <li><a href="masalukot.html">Masalukot II Property (Available)</a></li>
+          <li><a href="buenavista.html">Buenavista Property (Sold Out)</a></li>
+          <li><a href="lutucan.html">Lutucan Property (Sold Out)</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Information</h4>
+        <p>Contact Number: [OFFICIAL CONTACT NUMBER]</p>
+        <p style="margin-top: 0.5rem;">Email: [OFFICIAL BUSINESS EMAIL]</p>
+        <p style="margin-top: 0.5rem;">Facebook: [FACEBOOK PAGE URL]</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 The Managers Realty. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
