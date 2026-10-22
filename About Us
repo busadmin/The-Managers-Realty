@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | The Managers Realty</title>
+  <meta name="description" content="Learn more about The Managers Realty, our farm-lot properties in Buenavista, Lutucan, and Masalukot II, and our commitment to transparent communication.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- GLOBAL HEADER -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="wordmark">The Managers Realty</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="properties.html">Available Properties</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <a href="masalukot.html" class="btn-primary">Explore Available Lots</a>
+    </nav>
+  </header>
+
+  <!-- ABOUT PAGE CONTENT -->
+  <section style="max-width: 900px; margin: 4rem auto; padding: 0 2rem;">
+    <div style="text-align: center; margin-bottom: 3rem;">
+      <h1 style="font-size: 2.75rem; margin-bottom: 1rem;">About The Managers Realty</h1>
+    </div>
+
+    <!-- Team Photo -->
+    <div style="margin-bottom: 3rem; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08);">
+      <img src="the managers.jpg" alt="The Managers Realty Team Group Photo" style="width: 100%; max-height: 450px; object-fit: cover;">
+    </div>
+
+    <!-- Main Content Copy -->
+    <div style="font-size: 1.1rem; line-height: 1.8; color: #444; display: flex; flex-direction: column; gap: 1.5rem; margin-bottom: 4rem;">
+      <p>
+        The Managers Realty is a team of freelance real estate sellers offering farm-lot property opportunities. We help interested buyers explore our property developments, learn about current availability, and request information to support their property decisions.
+      </p>
+      <p>
+        Our property portfolio includes Buenavista, Lutucan, and Masalukot II. Buenavista and Lutucan are sold out, while some lots remain available in Masalukot II.
+      </p>
+      <p>
+        We believe that clear property information and direct communication are important when exploring a property purchase. Our team is here to help answer inquiries and provide the available property details.
+      </p>
+    </div>
+
+    <!-- CTA Box -->
+    <div style="background-color: var(--white); border: 1px solid var(--border-color); padding: 3rem; border-radius: 8px; text-align: center;">
+      <h2 style="font-size: 2rem; margin-bottom: 1rem;">Explore Our Available Property</h2>
+      <p style="color: #666; margin-bottom: 2rem; font-size: 1.05rem;">Interested in learning more about Masalukot II? Contact our team for current availability and property information.</p>
+      <a href="masalukot.html" class="btn-primary" style="background-color: var(--gold); color: white;">Inquire About Masalukot II</a>
+    </div>
+  </section>
+
+  <!-- GLOBAL FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4 class="wordmark" style="color: var(--gold); margin-bottom: 1rem;">The Managers Realty</h4>
+        <p>A team of freelance real estate sellers offering farm-lot property opportunities in the Philippines.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="properties.html">Available Properties</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Properties</h4>
+        <ul>
+          <li><a href="masalukot.html">Masalukot II Property (Available)</a></li>
+          <li><a href="buenavista.html">Buenavista Property (Sold Out)</a></li>
+          <li><a href="lutucan.html">Lutucan Property (Sold Out)</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Information</h4>
+        <p>Contact Number: [OFFICIAL CONTACT NUMBER]</p>
+        <p style="margin-top: 0.5rem;">Email: [OFFICIAL BUSINESS EMAIL]</p>
+        <p style="margin-top: 0.5rem;">Facebook: [FACEBOOK PAGE URL]</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 The Managers Realty. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
