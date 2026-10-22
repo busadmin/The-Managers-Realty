@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team | The Managers Realty</title>
+  <meta name="description" content="Meet the freelance real estate sellers of The Managers Realty helping buyers explore farm-lot opportunities in the Philippines.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- GLOBAL HEADER -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="wordmark">The Managers Realty</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="properties.html">Available Properties</a></li>
+        <li><a href="team.html" class="active">Our Team</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <a href="masalukot.html" class="btn-primary">Explore Available Lots</a>
+    </nav>
+  </header>
+
+  <!-- TEAM PAGE CONTENT -->
+  <section style="max-width: 1100px; margin: 4rem auto; padding: 0 2rem;">
+    <div style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+      <h1 style="font-size: 2.75rem; margin-bottom: 1rem;">Meet The Managers Realty Team</h1>
+      <p style="color: #555; font-size: 1.1rem; line-height: 1.7;">
+        We are a team of freelance real estate sellers helping buyers explore farm-lot property opportunities. Our goal is to make it easier for you to learn about our properties, check availability, and connect with the right team member for your inquiries.
+      </p>
+    </div>
+
+    <!-- Attached Group Photo -->
+    <div style="margin-bottom: 4rem; border-radius: 8px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+      <img src="the managers.jpg" alt="The Managers Realty Team Group Photo" style="width: 100%; max-height: 550px; object-fit: cover;">
+    </div>
+
+    <!-- Team Members Grid -->
+    <div style="margin-bottom: 4rem;">
+      <h2 style="font-size: 2rem; margin-bottom: 2rem; text-align: center;">Our Team Members</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+        
+        <div style="background: white; padding: 2rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center;">
+          <h3 style="font-size: 1.25rem; color: var(--forest-green);">Rosalito Alinas</h3>
+        </div>
+
+        <div style="background: white; padding: 2rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center;">
+          <h3 style="font-size: 1.25rem; color: var(--forest-green);">Nemuel Dava</h3>
+        </div>
+
+        <div style="background: white; padding: 2rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center;">
+          <h3 style="font-size: 1.25rem; color: var(--forest-green);">Mark Eric Ferrer</h3>
+        </div>
+
+        <div style="background: white; padding: 2rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center;">
+          <h3 style="font-size: 1.25rem; color: var(--forest-green);">Ace Marwin Marasigan</h3>
+        </div>
+
+        <div style="background: white; padding: 2rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center;">
+          <h3 style="font-size: 1.25rem; color: var(--forest-green);">Marneli Briones</h3>
+        </div>
+
+        <div style="background: white; padding: 2rem; border-radius: 8px; border: 1px solid var(--border-color); text-align: center;">
+          <h3 style="font-size: 1.25rem; color: var(--forest-green);">Jessamin Rocamora</h3>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Team CTA -->
+    <div style="background-color: var(--deep-green); color: white; padding: 4rem 2rem; border-radius: 8px; text-align: center;">
+      <h2 style="font-size: 2.25rem; color: white; margin-bottom: 1rem;">Let's Talk About Your Property Inquiry</h2>
+      <p style="color: #D1D5DB; margin-bottom: 2rem; font-size: 1.05rem;">Contact The Managers Realty to learn more about our available property opportunities.</p>
+      <a href="masalukot.html" class="btn-primary" style="background-color: var(--gold); color: white;">Inquire About Masalukot II</a>
+    </div>
+  </section>
+
+  <!-- GLOBAL FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4 class="wordmark" style="color: var(--gold); margin-bottom: 1rem;">The Managers Realty</h4>
+        <p>A team of freelance real estate sellers offering farm-lot property opportunities in the Philippines.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="properties.html">Available Properties</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Properties</h4>
+        <ul>
+          <li><a href="masalukot.html">Masalukot II Property (Available)</a></li>
+          <li><a href="buenavista.html">Buenavista Property (Sold Out)</a></li>
+          <li><a href="lutucan.html">Lutucan Property (Sold Out)</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Information</h4>
+        <p>Contact Number: [OFFICIAL CONTACT NUMBER]</p>
+        <p style="margin-top: 0.5rem;">Email: [OFFICIAL BUSINESS EMAIL]</p>
+        <p style="margin-top: 0.5rem;">Facebook: [FACEBOOK PAGE URL]</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 The Managers Realty. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
