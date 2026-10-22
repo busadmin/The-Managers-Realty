@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Managers Realty | Farm-Lot Properties in the Philippines</title>
+  <meta name="description" content="Explore farm-lot property opportunities with The Managers Realty. Discover our property developments and inquire about available lots in Masalukot II.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- GLOBAL HEADER -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="wordmark">The Managers Realty</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="properties.html">Available Properties</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <a href="masalukot.html" class="btn-primary">Explore Available Lots</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" style="background: linear-gradient(rgba(22, 53, 36, 0.75), rgba(22, 53, 36, 0.75)), url('masalukot-hero.jpg') center/cover no-repeat; color: white; padding: 7rem 2rem; text-align: center;">
+    <div style="max-width: 800px; margin: 0 auto;">
+      <h1 style="font-size: 3rem; color: white; margin-bottom: 1.5rem;">Find Your Place. Explore Farm-Lot Opportunities.</h1>
+      <p style="font-size: 1.15rem; margin-bottom: 2.5rem; color: #EFECE4;">Discover farm-lot properties with The Managers Realty. Explore our property developments and connect with our team to learn more about available lots.</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="masalukot.html" class="btn-primary" style="background-color: var(--gold); color: white;">Explore Available Lots</a>
+        <a href="team.html" class="btn-secondary" style="border-color: white; color: white;">Meet Our Team</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROPERTY SECTION -->
+  <section style="max-width: 1200px; margin: 5rem auto; padding: 0 2rem;">
+    <div style="text-align: center; margin-bottom: 3rem;">
+      <h2 style="font-size: 2.25rem; margin-bottom: 0.75rem;">Explore Our Properties</h2>
+      <p style="color: #555; max-width: 600px; margin: 0 auto;">Discover our property developments and check their current availability.</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+      
+      <!-- Card 1: Buenavista -->
+      <div style="background: white; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); display: flex; flex-direction: column;">
+        <div style="position: relative;">
+          <img src="buenavista-thumb.jpg" alt="Buenavista Property" style="width: 100%; height: 220px; object-fit: cover;">
+          <span class="badge badge-sold-out" style="position: absolute; top: 1rem; right: 1rem;">Sold Out</span>
+        </div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Buenavista Property</h3>
+          <p style="color: #666; font-size: 0.95rem; margin-bottom: 1.5rem; flex-grow: 1;">Explore our Buenavista property gallery.</p>
+          <a href="buenavista.html" class="btn-secondary" style="text-align: center;">View Property Gallery</a>
+        </div>
+      </div>
+
+      <!-- Card 2: Lutucan -->
+      <div style="background: white; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); display: flex; flex-direction: column;">
+        <div style="position: relative;">
+          <img src="lutucan-thumb.jpg" alt="Lutucan Property" style="width: 100%; height: 220px; object-fit: cover;">
+          <span class="badge badge-sold-out" style="position: absolute; top: 1rem; right: 1rem;">Sold Out</span>
+        </div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Lutucan Property</h3>
+          <p style="color: #666; font-size: 0.95rem; margin-bottom: 1.5rem; flex-grow: 1;">Explore our Lutucan property gallery.</p>
+          <a href="lutucan.html" class="btn-secondary" style="text-align: center;">View Property Gallery</a>
+        </div>
+      </div>
+
+      <!-- Card 3: Masalukot II -->
+      <div style="background: white; border-radius: 8px; overflow: hidden; border: 2px solid var(--forest-green); display: flex; flex-direction: column; box-shadow: 0 10px 20px rgba(33, 75, 53, 0.08);">
+        <div style="position: relative;">
+          <img src="masalukot-thumb.jpg" alt="Masalukot II Property" style="width: 100%; height: 220px; object-fit: cover;">
+          <span class="badge badge-available" style="position: absolute; top: 1rem; right: 1rem;">Available Lots</span>
+        </div>
+        <div style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Masalukot II Property</h3>
+          <p style="color: #666; font-size: 0.95rem; margin-bottom: 1.5rem; flex-grow: 1;">Some lots remain available. Contact our team to ask about current availability and property details.</p>
+          <a href="masalukot.html" class="btn-primary" style="text-align: center;">Inquire About Available Lots</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE THE MANAGERS REALTY -->
+  <section style="background-color: var(--white); padding: 5rem 2rem; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div style="max-width: 1200px; margin: 0 auto;">
+      <div style="text-align: center; margin-bottom: 3.5rem;">
+        <h2 style="font-size: 2.25rem; margin-bottom: 0.75rem;">Your Property Search Starts Here</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem;">
+        <div style="padding: 1.5rem;">
+          <h4 style="font-size: 1.2rem; margin-bottom: 0.75rem; color: var(--forest-green);">Personal Assistance</h4>
+          <p style="color: #555; font-size: 0.95rem;">Connect with our team to discuss your property inquiries.</p>
+        </div>
+        <div style="padding: 1.5rem;">
+          <h4 style="font-size: 1.2rem; margin-bottom: 0.75rem; color: var(--forest-green);">Property Information</h4>
+          <p style="color: #555; font-size: 0.95rem;">Request details about available lots and their current status.</p>
+        </div>
+        <div style="padding: 1.5rem;">
+          <h4 style="font-size: 1.2rem; margin-bottom: 0.75rem; color: var(--forest-green);">Transparent Availability</h4>
+          <p style="color: #555; font-size: 0.95rem;">See which developments are sold out and which still have available lots.</p>
+        </div>
+        <div style="padding: 1.5rem;">
+          <h4 style="font-size: 1.2rem; margin-bottom: 0.75rem; color: var(--forest-green);">Direct Communication</h4>
+          <p style="color: #555; font-size: 0.95rem;">Get in touch with our team for property-related questions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM PREVIEW -->
+  <section style="max-width: 1200px; margin: 5rem auto; padding: 0 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; align-items: center;">
+    <div>
+      <h2 style="font-size: 2.25rem; margin-bottom: 1rem;">Meet The People Behind The Managers Realty</h2>
+      <p style="color: #555; margin-bottom: 1.5rem; font-size: 1.05rem;">Get to know the team behind The Managers Realty and connect with us to explore your property inquiries.</p>
+      <a href="team.html" class="btn-secondary">Meet Our Team</a>
+    </div>
+    <div>
+      <img src="the managers.jpg" alt="The Managers Realty Team Group Photo" style="width: 100%; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section style="background-color: var(--deep-green); color: white; padding: 5rem 2rem; text-align: center;">
+    <div style="max-width: 700px; margin: 0 auto;">
+      <h2 style="font-size: 2.5rem; color: white; margin-bottom: 1rem;">Interested in Masalukot II?</h2>
+      <p style="color: #D1D5DB; margin-bottom: 2rem; font-size: 1.1rem;">Some lots are still available. Contact our team to request the latest availability and property information.</p>
+      <a href="masalukot.html" class="btn-primary" style="background-color: var(--gold); color: white;">Inquire About Available Lots</a>
+    </div>
+  </section>
+
+  <!-- GLOBAL FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4 class="wordmark" style="color: var(--gold); margin-bottom: 1rem;">The Managers Realty</h4>
+        <p>A team of freelance real estate sellers offering farm-lot property opportunities in the Philippines.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="properties.html">Available Properties</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Properties</h4>
+        <ul>
+          <li><a href="masalukot.html">Masalukot II Property (Available)</a></li>
+          <li><a href="buenavista.html">Buenavista Property (Sold Out)</a></li>
+          <li><a href="lutucan.html">Lutucan Property (Sold Out)</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Information</h4>
+        <p>Contact Number: [OFFICIAL CONTACT NUMBER]</p>
+        <p style="margin-top: 0.5rem;">Email: [OFFICIAL BUSINESS EMAIL]</p>
+        <p style="margin-top: 0.5rem;">Facebook: [FACEBOOK PAGE URL]</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 The Managers Realty. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
