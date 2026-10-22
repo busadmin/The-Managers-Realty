@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buenavista Property Gallery | The Managers Realty</title>
+  <meta name="description" content="Explore the Buenavista property gallery from The Managers Realty. This development is sold out.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- GLOBAL HEADER -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="wordmark">The Managers Realty</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="properties.html" class="active">Available Properties</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <a href="masalukot.html" class="btn-primary">Explore Available Lots</a>
+    </nav>
+  </header>
+
+  <!-- SOLD OUT PROPERTY DETAILS -->
+  <section style="max-width: 1000px; margin: 4rem auto; padding: 0 2rem;">
+    <div style="margin-bottom: 2rem;">
+      <span class="badge badge-sold-out" style="margin-bottom: 1rem;">Sold Out</span>
+      <h1 style="font-size: 2.75rem; margin-bottom: 0.5rem;">Buenavista Property</h1>
+      <p style="color: #666; font-size: 1.1rem;">This development is currently sold out. You can still explore the property gallery.</p>
+    </div>
+
+    <!-- Main Photo -->
+    <div style="margin-bottom: 2rem; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+      <img src="buenavista-hero.jpg" alt="Buenavista property photo" style="width: 100%; height: 450px; object-fit: cover;">
+    </div>
+
+    <!-- Sold Out Notice Box -->
+    <div style="background-color: #F1F5F9; border-left: 4px solid #64748B; padding: 1.5rem; border-radius: 0 8px 8px 0; margin-bottom: 3rem;">
+      <h3 style="color: #334155; margin-bottom: 0.5rem;">This Property Is Sold Out</h3>
+      <p style="color: #475569; font-size: 0.95rem; margin-bottom: 1rem;">All lots in this development have been successfully sold. View our available properties to explore current opportunities.</p>
+      <a href="properties.html" class="btn-secondary" style="background: white;">View Other Properties</a>
+    </div>
+
+    <!-- Property Gallery -->
+    <div style="margin-bottom: 5rem;">
+      <h2 style="font-size: 2rem; margin-bottom: 1.5rem; text-align: center;">Property Gallery</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+        <img src="buenavista-1.jpg" alt="Buenavista property photo" style="width: 100%; height: 220px; object-fit: cover; border-radius: 6px;">
+        <img src="buenavista-2.jpg" alt="Buenavista property photo" style="width: 100%; height: 220px; object-fit: cover; border-radius: 6px;">
+        <img src="buenavista-3.jpg" alt="Buenavista property photo" style="width: 100%; height: 220px; object-fit: cover; border-radius: 6px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- GLOBAL FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4 class="wordmark" style="color: var(--gold); margin-bottom: 1rem;">The Managers Realty</h4>
+        <p>A team of freelance real estate sellers offering farm-lot property opportunities in the Philippines.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="properties.html">Available Properties</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Properties</h4>
+        <ul>
+          <li><a href="masalukot.html">Masalukot II Property (Available)</a></li>
+          <li><a href="buenavista.html">Buenavista Property (Sold Out)</a></li>
+          <li><a href="lutucan.html">Lutucan Property (Sold Out)</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Information</h4>
+        <p>Contact Number: [OFFICIAL CONTACT NUMBER]</p>
+        <p style="margin-top: 0.5rem;">Email: [OFFICIAL BUSINESS EMAIL]</p>
+        <p style="margin-top: 0.5rem;">Facebook: [FACEBOOK PAGE URL]</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 The Managers Realty. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
